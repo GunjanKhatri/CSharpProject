@@ -10,12 +10,16 @@ namespace Static_assignment
     {
         public static int randint(int num1, int num2)
         {
-            return 2;
+            Random rnd = new Random();
+            int num = rnd.Next(num1,num2+1);
+            return num;
         }
 
         public static double randdouble(int num1, int num2)
         {
-            return 7.8;
+            Random rnd = new Random();
+            double num = rnd.Next(num1, num2);
+            return num;
         }
     }
 }

@@ -57,7 +57,7 @@ namespace Control_Statements_Assignment
             int count = 0;
             Console.WriteLine("Enter number");
             num1 = Convert.ToInt32(Console.ReadLine());
-
+            
             Console.WriteLine("Enter a number you want to find");
             num2 = Convert.ToInt32(Console.ReadLine());
 
